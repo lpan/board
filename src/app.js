@@ -1,10 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import {addSig} from './firebase';
 
-const Comp = () =>
-  <p>yo</p>;
-
-ReactDOM.render(
-  <Comp />,
-  document.getElementById('root')
-);
+addSig('Lawrence', 'Pan', {x: 1, y: 2});
