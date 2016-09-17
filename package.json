@@ -4,7 +4,8 @@
   "description": "A project by Felix Glushchenkov, Neelaksh Bhatia and Lawrence Pan",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline --content-base public/",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,16 @@
   },
   "homepage": "https://github.com/lpan/board#readme",
   "dependencies": {
-    "express": "^4.14.0",
-    "socket.io": "^1.4.8"
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
   },
   "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
     "eslint": "^3.5.0",
-    "firebase-tools": "^3.0.7"
+    "firebase-tools": "^3.0.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
   }
 }
