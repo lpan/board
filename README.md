@@ -1,2 +1,1 @@
-# board
-Hack the North 2016
+A project by Felix Glushchenkov, Neelaksh Bhatia and Lawrence Pan
