@@ -1,0 +1,23 @@
+{
+  "name": "board",
+  "version": "0.0.0",
+  "description": "A project by Felix Glushchenkov, Neelaksh Bhatia and Lawrence Pan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpan/board.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpan/board/issues"
+  },
+  "homepage": "https://github.com/lpan/board#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
