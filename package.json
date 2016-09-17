@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/lpan/board#readme",
   "dependencies": {
-    "firebase": "^3.4.0"
+    "firebase": "^3.4.0",
+    "jquery": "^3.1.0"
   },
   "devDependencies": {
     "babel-loader": "^6.2.5",
