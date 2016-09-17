@@ -1,22 +1,22 @@
 {
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "impliedStrict": true
-    }
-  },
-  "extends": "eslint:recommended",
+  "extends": "airbnb",
   "env": {
-    "node": true,
+    "jest": true,
     "es6": true,
-    browser: true
+    "browser": true
   },
   "rules": {
     "consistent-return": 0,
-    "no-use-before-define": 0,
-    "padded-blocks": 0,
+    "react/jsx-filename-extension": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/imports-first": 0,
     "object-curly-spacing": ["error", "never"],
     "no-console": ["error", {allow: ["error"]}]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
   }
 }
